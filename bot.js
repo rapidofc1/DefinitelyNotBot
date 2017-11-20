@@ -24,6 +24,11 @@ client.on('message', message => {
     
 });
 
+client.on('message'.mmessage => {
+    If (args[1]) message.channel.send(fortunes[math.floor(math.random()*fortunes.length)]);
+    Break;
+
+    }
 client.on('message', message => {
     if (message.content === 'bing') {
     	message.reply('BONG!');
