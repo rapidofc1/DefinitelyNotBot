@@ -25,7 +25,7 @@ client.on('message', message => {
 });
 client.on('message', message => {
     if (message.content === '!botinfo') {
-    	message.channel.send(':information_source: Well, here is my info!
+    	message.channel.send(':information_source: "Well, here is my info!"
                              "__**Bot Owner:**__ Rapid"
                              "__**Bot hosted on:**__ Heroku"
                              "__**Bot Version:**__ 1.0"');
