@@ -25,9 +25,7 @@ client.on('message', message => {
 
 client.on('message', message => {
     if (message.content === 'botinfo') {
-    	message.channel.send(':information_source: Bot Owner: Rapid
-                             Bot hosted on: Heroku
-                             Bot Version: 1.0');
+    	message.channel.send(':information_source: Bot Owner: Rapid Bot hosted on: Heroku Bot Version: 1.0');
     }
 });
        
