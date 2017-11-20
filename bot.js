@@ -12,6 +12,13 @@ client.on('message', message => {
 });
 
 client.on('message', message => {
+    if (message.content === 'ur mom') {
+    	message.channel.send('**NO,** your mum.');
+  	}
+    
+});
+
+client.on('message', message => {
     if (message.content === 'bing') {
     	message.reply('BONG!');
   	}
