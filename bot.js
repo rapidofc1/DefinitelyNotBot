@@ -21,13 +21,8 @@ client.on('message', message => {
     if (message.content === 'whoisrapid') {
     	message.channel.send('**The super dank creator and owner of this server, obviously.** :grin:');
     }  
-});
 
-client.on('message', message => {
-    if (message.content === 'myavatar') {
-        message.reply(message.author.avatarURL);
-    }
-        
+});
 client.on('message', message => {
     if (message.content === 'botinfo') {
     	message.channel.send(':information_source: __**Bot Owner:**__ Rapid ~ __**Bot hosted on:**__ Heroku ~ __**Bot Version:**__ 1.0');
