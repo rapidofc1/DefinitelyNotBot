@@ -25,7 +25,7 @@ client.on('message', message => {
 
 client.on('message', message => {
     if (message.content === 'myavatar') {
-        message.channel.send(message.author.avatarURL);
+        message.reply(message.author.avatarURL);
     }
         
 client.on('message', message => {
