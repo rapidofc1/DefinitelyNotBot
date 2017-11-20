@@ -20,16 +20,9 @@ client.on('message', message => {
 client.on('message', message => {
     if (message.content === 'whoisrapid') {
     	message.channel.send('**The super dank creator and owner of this server, obviously.** :grin:');
-  	}
-    
-});
-
-client.on('message'.mmessage => {
-  case "8ball":
-    if (args[1]) message.channel.send(fortunes[math.floor(math.random()*fortunes.length)]);
-    Break;
-
     }
+});
+       
 client.on('message', message => {
     if (message.content === 'bing') {
     	message.reply('BONG!');
