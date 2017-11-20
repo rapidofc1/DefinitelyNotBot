@@ -29,6 +29,8 @@ client.on('message', message => {
     }
 
 });
+client.on('message', message => {
+    if (message.content === '!help') {
 message.author.send({
             embed: {
                 color: 3447003,
@@ -137,7 +139,6 @@ message.author.send({
         });
     }
 });
-       
 client.on('message', message => {
     if (message.content === '!bing') {
     	message.reply('BONG!');
