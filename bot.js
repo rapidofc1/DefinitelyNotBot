@@ -20,6 +20,14 @@ client.on('message', message => {
 client.on('message', message => {
     if (message.content === 'whoisrapid') {
     	message.channel.send('**The super dank creator and owner of this server, obviously.** :grin:');
+    }  
+});
+
+client.on('message', message => {
+    if (message.content === 'botinfo') {
+    	message.channel.send(':information_source: Bot Owner: Rapid
+                             Bot hosted on: Heroku
+                             Bot Version: 1.0');
     }
 });
        
