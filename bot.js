@@ -6,31 +6,31 @@ client.on('ready', () => {
 });
 
 client.on('message', message => {
-    if (message.content === 'ping') {
+    if (message.content === '!ping') {
     	message.channel.send('PONG!');
   	}
 });
 
 client.on('message', message => {
-    if (message.content === 'ur mom') {
+    if (message.content === '!ur mom') {
     	message.channel.send('**NO,** your mum.');
   	}
 });
 
 client.on('message', message => {
-    if (message.content === 'whoisrapid') {
+    if (message.content === '!whoisrapid') {
     	message.channel.send('**The super dank creator and owner of this server, obviously.** :grin:');
     }  
 
 });
 client.on('message', message => {
-    if (message.content === 'botinfo') {
+    if (message.content === '!botinfo') {
     	message.channel.send(':information_source: __**Bot Owner:**__ Rapid ~ __**Bot hosted on:**__ Heroku ~ __**Bot Version:**__ 1.0');
     }
 });
        
 client.on('message', message => {
-    if (message.content === 'bing') {
+    if (message.content === '!bing') {
     	message.reply('BONG!');
   	}
 });
