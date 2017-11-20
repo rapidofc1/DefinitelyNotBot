@@ -25,8 +25,8 @@ client.on('message', message => {
 });
 
 client.on('message'.mmessage => {
-  Case "8ball":
-    If (args[1]) message.channel.send(fortunes[math.floor(math.random()*fortunes.length)]);
+  case "8ball":
+    if (args[1]) message.channel.send(fortunes[math.floor(math.random()*fortunes.length)]);
     Break;
 
     }
