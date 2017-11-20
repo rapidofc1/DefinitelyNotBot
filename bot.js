@@ -19,7 +19,7 @@ client.on('message', message => {
 
 client.on('message', message => {
     if (message.content === 'whoisrapid') {
-    	message.channel.send('**The super dank creator and owner of this server, obviously.** :SeizureEyes:');
+    	message.channel.send('**The super dank creator and owner of this server, obviously.** :grin:');
   	}
     
 });
